@@ -1,0 +1,299 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+span {
+    font-family: 'Verdana', sans-serif;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a {
+    font-family: 'Roboto';
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+}
+
+
+/* comon css end  */
+
+
+/* custom css start  */
+
+
+/* header section start  */
+
+#header-wrapper {
+    position: sticky;
+    width: 100%;
+    margin: auto;
+    z-index: 99999999;
+    background: #fff;
+    top: 0%;
+    padding-bottom: 20px;
+}
+
+header {}
+
+.top-heade {
+    background: #ececec;
+}
+
+.top-header-menu {}
+
+.top-header-menu ul {
+    display: flex;
+    justify-content: right;
+    list-style: none;
+    margin-bottom: 0px;
+}
+
+.top-header-menu ul li {}
+
+.top-header-menu ul li a {
+    font-size: 12px;
+    padding: 6px 20px;
+    color: #212121;
+    line-height: 24px;
+    text-transform: uppercase;
+    transition: color .5s;
+    font-weight: 500;
+}
+
+.top-header-menu ul li a:hover {
+    color: #f85606;
+}
+
+.main-header {
+    margin-top: 14px;
+    color: #ffffff;
+}
+
+.header-logo-left {
+    position: relative;
+}
+
+.header-form form input {
+    background: rgba(221, 221, 221, 0.76);
+}
+
+.header-form form input::placeholder {
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.322);
+}
+
+.dropdown-menu {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50px;
+}
+
+.header-logo-left img {
+    width: 135px;
+}
+
+.header-form {
+    position: relative;
+}
+
+.header-search-bar {}
+
+.header-search-btn {
+    position: absolute;
+    right: 1px;
+    top: 0;
+    border: none;
+    padding: 11px 15px;
+    background: #f57224;
+    border-radius: 0px 7px 7px 0px;
+    color: #fff;
+}
+
+.header-logo-2 span {
+    font-size: 23px;
+    display: block;
+    text-align: center;
+    margin-top: 9px;
+    color: #000;
+}
+
+
+/* header section end  */
+
+
+/* dropdown ment- start  */
+
+.section-dropdown {}
+
+.menu {}
+
+.menu button {
+    border: none;
+    background: #fff;
+    margin: 30px 0px 0px 17px;
+    font-size: 14px;
+    color: #00000094;
+    font-weight: 600;
+    text-align: left;
+    width: 100%;
+    position: relative;
+}
+
+.menu button span {
+    position: relative;
+}
+
+.menu button span::after {
+    content: "\f106";
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-family: 'Fontawesome';
+    font-weight: 600;
+    opacity: 0;
+    visibility: hidden;
+}
+
+.menu button:hover span::after {
+    opacity: 1;
+    visibility: visible;
+}
+
+.menu button:hover span i {
+    opacity: 0;
+    visibility: hidden;
+}
+
+.menu button:hover ul {
+    opacity: 1;
+    visibility: visible;
+}
+
+.menu button ul {
+    position: absolute;
+    width: 244px;
+    list-style: none;
+    background: #fff;
+    border: 1px solid #ddd;
+    padding: 10px 0px;
+    opacity: 0;
+    visibility: hidden;
+    top: 100%;
+    left: 0;
+}
+
+.menu button ul li {
+    display: block;
+    position: relative;
+}
+
+.menu button ul li::after {
+    content: "\f105";
+    position: absolute;
+    right: 10px;
+    top: 3px;
+    font-family: 'Fontawesome';
+    font-weight: 600;
+    opacity: 0;
+    visibility: hidden;
+}
+
+.menu button ul li:hover::after {
+    opacity: 1;
+    visibility: visible;
+    color: #0a8ad4;
+}
+
+.menu button ul li a {
+    color: #757575;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 27px;
+    display: block;
+    padding: 0px 10px;
+}
+
+.menu button ul li:hover a {
+    color: #0a8ad4;
+    background: ddd;
+}
+
+.menu button ul li:hover {
+    background: #ddd;
+}
+
+
+/* dropdown ment- end */
+
+
+/* slider section start  */
+
+.top-slider {
+    margin-top: 25px;
+}
+
+
+/* slider section end */
+
+
+/* hero section satrt */
+
+.hero-adds {
+    position: relative;
+}
+
+.hero-video {
+    position: absolute;
+    right: 14px;
+    top: 15px;
+}
+
+
+/* hero section end */
+
+
+/* question-section start  */
+
+.question-section {}
+
+.question-section strong {
+    color: #f47934;
+    font-size: 24px;
+    margin-top: 43px;
+}
+
+.question-section span {
+    color: #f47934;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: ' Roboto-Regular', 'Helvetica Neue', Helvetica, Tahoma, Arial, Sans-serif;
+}
+
+.question-section p {
+    color: #000;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: ' Roboto-Regular', 'Helvetica Neue', Helvetica, Tahoma, Arial, Sans-serif;
+}
+
+.question-section a {
+    color: #54b4df;
+}
+
+
+/* question-section end */
